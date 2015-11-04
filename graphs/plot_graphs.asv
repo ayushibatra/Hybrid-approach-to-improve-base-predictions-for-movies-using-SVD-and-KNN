@@ -1,0 +1,4 @@
+%A = importdata(`plottrainerr.txt`);
+trainerror = dlmread('plottrainerr.txt',';')
+testerror = dlmread('plottesterr.txt',';')
+features = dlmread('plotepoch.txt',';')

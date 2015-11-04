@@ -1,0 +1,20 @@
+
+function rcap = makePrediction(r)
+    
+    %U=[1;1;1;2;2;3;3;3;4;4;5;5;5];
+    %I=[1;2;4;1;4;1;2;4;1;4;2;3;4];
+    
+    %U = userMatrix(:,:);
+    %I = itemMatrix(:,:);
+    %uf(1:2,1:5)=0.1;
+    %mf(1:2,1:4)=0.1;
+    
+    
+    max_features = 17;
+    rcap =0
+    
+    for f = 1:max_features
+        rcap = rcap + userfeature(f,U(r))*moviefeaturef(f,I(r)) 
+    end
+    
+end

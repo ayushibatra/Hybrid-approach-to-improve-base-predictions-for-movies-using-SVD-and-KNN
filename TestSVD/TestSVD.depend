@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1446238386 source:c:\users\ayushibatra\desktop\major project\testsvd\main.cpp
+	<iostream>
+	<fstream>
+	<memory.h>
+	<cassert>
+
